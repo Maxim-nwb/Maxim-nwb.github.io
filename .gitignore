@@ -1,0 +1,8 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+.vs/Maxim-nwb.github.io/v16/.suo
+.vs/VSWorkspaceState.json
