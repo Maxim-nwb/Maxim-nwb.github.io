@@ -1,25 +1,32 @@
+html {
+    overflow: hidden;
+}
+
 body {
-    background: #141217;
+    background-image: url('../Source/header.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @font-face {
-    font-family: Arlekino;
-    src: url(../Source/Arlekino.ttf);
+    font-family: snow-font;
+    src: url(../Source/snow-font.ttf);
 }
 
-.fireplace {
-    border-radius: 40px;
-    width: 300px;
-    height: 300px;
+.header {
+    width: 100%;
+    height: auto;
     display: block;
-    margin: 80px auto 0;
+    margin: 0 auto 0;
 }
 
 .interpretation {
-    color: #A52A2A;
-    width: 750px;
+    color: white;
+    width: 75%;
     height: 300px;
-    margin: 30px auto;
-    font-family: Arlekino;
-    font-size: 25px;
+    font-family: snow-font;
+    font-size: 30px;
+    text-shadow: #00FFFF 0 0 5px;
+    margin: 35% auto auto auto;
 }
