@@ -1,0 +1,25 @@
+body {
+    background: #141217;
+}
+
+@font-face {
+    font-family: Arlekino;
+    src: url(../Source/Arlekino.ttf);
+}
+
+.fireplace {
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 80px auto 0;
+}
+
+.interpretation {
+    color: #A52A2A;
+    width: 750px;
+    height: 300px;
+    margin: 30px auto;
+    font-family: Arlekino;
+    font-size: 25px;
+}
