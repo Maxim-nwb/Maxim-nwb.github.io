@@ -1,6 +1,3 @@
-html {
-    overflow: hidden;
-}
 
 body {
     background-image: url('../Source/header.gif');
@@ -9,12 +6,13 @@ body {
     background-attachment: fixed;
 }
 
-@font-face {
-    font-family: snow-font;
-    src: url(../Source/snow-font.ttf);
+
+    @font-face {
+        font-family: snow-font;
+        src: url(../Source/snow-font.ttf);
 }
 
-.header {
+    .header {
     width: 100%;
     height: auto;
     display: block;
@@ -22,8 +20,11 @@ body {
 }
 
 .interpretation {
+    position: absolute;
+    left: 5% ;
+    bottom: 0px;
     color: white;
-    width: 75%;
+    width: 90%;
     height: 300px;
     font-family: snow-font;
     font-size: 30px;
